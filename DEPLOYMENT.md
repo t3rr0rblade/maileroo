@@ -18,7 +18,7 @@ npm run install:all
 
 # Set environment variables
 cd frontend
-echo "GOOGLE_API_KEY=your_key_here" > .env.local
+echo "GOOGLE_GENERATIVE_AI_API_KEY=your_key_here" > .env.local
 
 # Setup database
 cd ../backend
